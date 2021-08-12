@@ -5,12 +5,10 @@
      CSS selectors as input arguments. Otherwise, we may have to learn other
      means of set builder notation. Recall jquery is pretty hard for newbs.
    + The downside of "Document.Write": it only appends to the bottom.
+   + [12 13:55] Is there a class of Elements in this language?
 */ 
 
-let matchingElement = document.querySelector("h1");
+let matchingElements = document.querySelectorAll(".domino-list > li");
+console.log(matchingElements[0]);
 
-console.log(matchingElement);
 
-matchingElement.classList("page-header");
-
-console.log()
