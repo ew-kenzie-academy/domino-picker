@@ -1,4 +1,27 @@
 /* This is CSS */
-.domino-list li {
-   background-color: green;
+
+*{
+    box-sizing: border-box;
 }
+
+body{   
+    background-color: darksalmon;
+}
+
+/* [12 09:45] The outer flex-container.
+*/
+.domino-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  color: blue;
+}
+
+/* + [12 09:37] Brief tutorial on CSS selection that we should already know.
+/*   Selecting the things inside; the *flex-item*s
+*/
+.domino-list li {
+    /* background-color: green; */
+    list-style-type: none; /* Make bullet points go away */
+    font-size:3rem; /* =1rem= is the default font size */
+ }
