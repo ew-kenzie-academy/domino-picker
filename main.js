@@ -11,4 +11,9 @@
 let matchingElements = document.querySelectorAll(".domino-list > li");
 console.log(matchingElements[0]);
 
+firstIndex  = 0;
+lastIndex   = matchingElements.length;
+randomIndex = null;
+
+let randomDomino = matchingElements[randomIndex];
 
